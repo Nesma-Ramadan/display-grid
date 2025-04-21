@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas:
+    "div1 div1 div2 div2"
+    "div1 div1 div2 div2"
+    "div1 div1 div2 div2"
+    "div1 div1 div2 div2"
+    "div3 div4 div4 div5"
+    "div3 div4 div4 div5"
+    "div3 div4 div4 div5"
+    "div3 div4 div4 div5"
+    "div6 div7 div7 div5"
+    "div6 div7 div7 div5"
+    "div6 div7 div7 div5"
+    "div6 div7 div7 div5"
+    "div8 div9 div10 div10"
+    "div8 div9 div10 div10";
+}
+.div1 {
+  grid-area: div1;
+  background-color: #ffffff;
+  align-self: flex-end;
+}
+.div2 {
+  grid-area: div2;
+  background-color: #f7f8f9;
+}
+.div3 {
+  grid-area: div3;
+  background-color: #f05638;
+}
+.div4 {
+  grid-area: div4;
+  background-color: #ffffff;
+  align-self: flex-end;
+}
+.div5 {
+  grid-area: div5;
+  background-color: #8f76bc;
+}
+.div6 {
+  grid-area: div6;
+  background-color: #f7f8f9;
+}
+.div7 {
+  grid-area: div7;
+  background-color: #93b6b7;
+  position: relative;
+
+}
+.div8 {
+  grid-area: div8;
+  background-color: #38d5f4;
+}
+.div9 {
+  grid-area: div9;
+  background-color: #f7f8f9;
+}
+.div10 {
+  grid-area: div10;
+  background-color: #2c2c2c;
+}
+
+.div1 .info {
+  display: flex;
+  justify-content: space-between;
+}
+.div1 .info .text {
+  width: 44%;
+}
+.div1 .info .img {
+  width: 32%;
+}
+.div2 .info .text h1 {
+  font-family: Arvo, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  text-transform: capitalize;
+  color: #333;
+  padding: 16px 0;
+}
+.div2 .info .text {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.div2 .info .text a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-decoration: underline;
+  color: #27b9c2;
+}
+.div3 .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.div3 .info .text {
+  width: 80%;
+  text-align: center;
+}
+.div3 .info .text .h2 {
+  color: #fff;
+}
+.div3 .info .learn {
+  color: #ffc80a;
+}
+.div4 .info {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.div4 .info .left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.div4 .info .left .text {
+  padding-bottom: 80px;
+}
+.div4 .info .left .img {
+  transform: translate(-38%);
+}
+.div4 .info .left .text {
+  width: 55%;
+}
+.div4 .info .right {
+  width: 50%;
+}
+.div4 .info .right .text {
+  width: 70%;
+}
+.div4 .info .right .text .p {
+  padding-bottom: 32px;
+}
+.div4 .info .right .text .learn {
+  font-family: "Open Sans", sans-serif;
+  color: #27b9c2;
+}
+.div5 .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.div5 .info .div-img {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background-color: #8166b0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 24px;
+}
+
+.div5 .info .div-img .popular {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #8b72b6;
+  padding: 2px 16px;
+  border-radius: 16px;
+}
+.div5 .info .div-img .popular .img{
+  width: 12px;
+}
+.div5 .info .div-img .popular span {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 23px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.div5 .info .div-img .h4 {
+  color: #fff;
+}
+.div5 .info .img {
+  width: 60%;
+}
+.div5 .info .text{
+  text-align: center;
+}
+.div5 .info h2 {
+  font-family: Arvo, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #fff;
+}
+.div5 .info .p {
+  color: #fff;
+  width: 63%;
+  margin: 16px auto 40px;
+}
+.div5 .info a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #000;
+  text-transform: uppercase;
+  padding: 8px 24px;
+  background-color: #ffc80a;
+  border-radius: 24px;
+}
+.div6 .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.div6 .info .img {
+  transform: translate(-30px);
+  width: 60%;
+}
+.div6 .info .learn {
+  color: #27b9c2;
+  margin-top: 24px;
+}
+.div7 .info {
+  background-image: url(../image/5bc2f42d5a5ed97dab707e7e_UX.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+.div7 .best {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #fa684f;
+  padding: 2px 8px;
+  border-radius: 8px;
+}
+.div7 .info .img {
+  transform: translate(-90px);
+}
+.div7 .info .text{
+  width: 40%;
+  text-align: center;
+
+}
+.div7 .info .text .h2{
+  color: #fff;
+}
+
+.div8 .info .twitter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  margin: auto;
+  width: 240px;
+  height:240px;
+  border-radius: 50%;
+  background-color: #35CFED;
+}
+.div8 .info .twitter .img{
+  width: 50px;
+  height: 50px;
+}
+.div8 .info .twitter .h2{
+  width: 80%;
+  text-align: center;
+  color: #fff;
+}
+.div9 .info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.div9 .info .popular{
+  width: fit-content;
+  background-color: #7BC424;
+padding: 2px 16px;
+border-radius: 8px;
+font-family: "Open Sans", sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.div9 .info .h2{
+  letter-spacing: 1px;
+  text-align: center;
+}
+.div10 .info{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.div10 .info .text .h2{
+  color: #fff;
+}
+.div10 .info .text{
+  width: 45%;
+}
+.div10 .info .img{
+  width: 35%;
+}

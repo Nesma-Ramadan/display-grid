@@ -1,0 +1,135 @@
+
+
+@media screen and (max-width:640px) {
+    .info{
+        width: 90%;
+    }
+    .container{
+        grid-template-areas:
+        "div2 div2 div2 div2"
+        "div2 div2 div2 div2"
+        "div2 div2 div2 div2"
+        "div1 div1 div1 div1"
+        "div1 div1 div1 div1"
+        "div1 div1 div1 div1"
+        "div3 div3 div6 div6"
+        "div3 div3 div6 div6"
+        "div3 div3 div6 div6"
+        "div4 div4 div4 div4"
+        "div4 div4 div4 div4"
+        "div4 div4 div4 div4"
+        "div8 div8 div5 div5"
+        "div8 div8 div5 div5"
+        "div8 div8 div5 div5"
+        "div7 div7 div5 div5"
+        "div7 div7 div5 div5"
+        "div7 div7 div5 div5"
+        "div9 div9 div9 div9"
+        "div9 div9 div9 div9"
+        "div10 div10 div10 div10"
+        "div10 div10 div10 div10";
+}
+.div2 .info .text h1 {
+    font-size: 35px;
+    line-height: 49px;
+  }
+  .div2 .info .text {
+    width: 100%;
+
+  }
+  .div1 .info .img {
+    width: 38%;
+  }
+  .div4 .info .left {
+    width: 55%;
+  }
+  .div5 .info a {
+    padding: 8px 24px;
+  }
+  .div7 .info .img {
+    transform: translate(-40px);
+  }
+  .div7 .info .text{
+    width: 90%;
+  
+  }
+  
+}
+@media screen and (min-width:768px) {
+
+.container{
+    grid-template-areas:
+    "div2 div2 div2 div2"
+    "div2 div2 div2 div2"
+    "div2 div2 div2 div2"
+    "div1 div1 div1 div1"
+    "div1 div1 div1 div1"
+    "div1 div1 div1 div1"
+    "div3 div3 div6 div6"
+    "div3 div3 div6 div6"
+    "div3 div3 div6 div6"
+    "div4 div4 div4 div4"
+    "div4 div4 div4 div4"
+    "div4 div4 div4 div4"
+    "div8 div8 div5 div5"
+    "div8 div8 div5 div5"
+    "div8 div8 div5 div5"
+    "div7 div7 div5 div5"
+    "div7 div7 div5 div5"
+    "div7 div7 div5 div5"
+    "div9 div9 div9 div9"
+    "div9 div9 div9 div9"
+    "div10 div10 div10 div10"
+    "div10 div10 div10 div10";
+}
+.div3 .info .text {
+  width: 56%;
+}
+.div5 .info .div-img {
+  width: 340px;
+  height: 340px;
+
+}
+}
+@media screen and (min-width:1024px) {
+  .container {
+    grid-auto-rows: minmax(80px, auto);
+    grid-template-areas:
+      "div1 div1 div2 div2"
+      "div1 div1 div2 div2"
+      "div1 div1 div2 div2"
+      "div1 div1 div2 div2"
+      "div3 div4 div4 div5"
+      "div3 div4 div4 div5"
+      "div3 div4 div4 div5"
+      "div3 div4 div4 div5"
+      "div6 div7 div7 div5"
+      "div6 div7 div7 div5"
+      "div6 div7 div7 div5"
+      "div6 div7 div7 div5"
+      "div8 div9 div10 div10"
+      "div8 div9 div10 div10";
+  }
+  .div1 .info .text {
+    width: 48%;
+  }
+  .div1 {
+    align-self: flex-end;
+  }
+  .div1 .info .img {
+    width: 49%;
+  }
+}
+@media screen and (min-width:1280px) {
+
+
+}
+@media screen and (min-width:1536px) {
+  .div1 .info .text {
+    width: 45%;
+  }
+  .div1 .info .img {
+    width: 40%;
+  }
+
+}
