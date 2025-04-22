@@ -130,13 +130,11 @@
   flex-direction: column;
   align-items: center;
 }
-.div4 .info .left .text {
-  padding-bottom: 80px;
-}
 .div4 .info .left .img {
   transform: translate(-38%);
 }
 .div4 .info .left .text {
+  padding-bottom: 80px;
   width: 55%;
 }
 .div4 .info .right {
@@ -226,6 +224,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 .div6 .info .img {
   transform: translate(-30px);
